@@ -1,0 +1,49 @@
+h2 {
+    font-family: "Fave-Script";
+    font-size: large;
+    font-style: italic;
+}
+
+p {
+    font-family: "Fellbaum";
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;;
+}
+
+.vse {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@font-face {
+    font-family: "Fave-Script";
+    src: url(/fonts/Fave-Script.woff);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Fellbaum";
+    src: url(//fonts/FellbaumGrotesk-Medium.woff);
+    font-style: inherit;
+    font-weight: bold;
+}
