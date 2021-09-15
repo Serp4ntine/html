@@ -12,6 +12,7 @@
 header.container{
     display: flex;
     justify-content: space-between;
+    background-color: white;
     /*margin-bottom: 30px;*/
 }
 
@@ -44,6 +45,10 @@ header.container{
 .logo::first-letter{
     font-weight: bold;
     color: var(--PrimaryColor);
+}
+
+main{
+    background-color: #e9f0fd;
 }
 
 .title--wrapper{
@@ -124,6 +129,7 @@ header.container{
     text-transform: uppercase;
     width: 80%;
     padding: 5px;
+    margin: 0;
 }
 
 .card__cost {
@@ -133,6 +139,7 @@ header.container{
     width: 20%;
     text-align: center;
     padding: 5px 0;
+    margin: 0;
 }
 
 .card__image{
@@ -179,6 +186,7 @@ a:hover{
 
 .card:hover .overlay {
     display: block;
+    background-color: var(--PrimaryColor);
     opacity: 1;
 }
 
